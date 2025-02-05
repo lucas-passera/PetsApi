@@ -1,8 +1,9 @@
 package main
 
 import (
-	"PetsApi/database"
 	"fmt"
+
+	"github.com/lucas-passera/PetsApi/database"
 )
 
 func main() {

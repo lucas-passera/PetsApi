@@ -11,7 +11,7 @@ import (
 var DB *gorm.DB
 
 func ConnectDatabase() {
-	dsn := "root:@tcp(localhost:3306)/pets_app?charset=utf8mb4&parseTime=True&loc=Local"
+	dsn := "root:Lucaspassera19*@tcp(localhost:3306)/pets_db"
 	db, err := gorm.Open(mysql.Open(dsn), &gorm.Config{})
 	if err != nil {
 		log.Fatal("Error al conectar a la base de datos:", err)
